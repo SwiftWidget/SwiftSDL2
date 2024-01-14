@@ -1,4 +1,4 @@
-module SwiftSDL2 {
+module SDL {
     header "SDL.h"
     header "SDL_vulkan.h"
     export *
