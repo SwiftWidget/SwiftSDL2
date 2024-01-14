@@ -155,7 +155,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftSDL2",
+            name: "SDL",
             targets: ["SwiftSDL2"]
         )
     ],
