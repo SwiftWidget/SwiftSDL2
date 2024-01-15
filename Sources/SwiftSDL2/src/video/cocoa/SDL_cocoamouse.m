@@ -517,8 +517,8 @@ void Cocoa_HandleMouseWheel(SDL_Window *window, NSEvent *event)
     }
 
     mouseID = mouse->mouseID;
-    x = -[event deltaX];
-    y = [event deltaY];
+    x = -[event scrollingDeltaX];
+    y = [event scrollingDeltaY];
     direction = SDL_MOUSEWHEEL_NORMAL;
 
     if ([event isDirectionInvertedFromDevice] == YES) {
